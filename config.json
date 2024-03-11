@@ -1,0 +1,12 @@
+{
+    "styles": [
+        {
+            "path": "scss/citizen.scss",
+            "page": "MediaWiki:Citizen.css"
+        },
+        {
+            "path": "scss/vector.scss",
+            "page": "MediaWiki:Vector.css"
+        }
+    ]
+}
