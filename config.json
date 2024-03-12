@@ -1,12 +1,18 @@
 {
     "styles": [
         {
-            "path": "scss/citizen.scss",
+            "path": "styles/citizen.scss",
             "page": "MediaWiki:Citizen.css"
         },
         {
-            "path": "scss/vector.scss",
+            "path": "styles/vector.scss",
             "page": "MediaWiki:Vector.css"
         }
+    ],
+    "raw": [
+	{
+	    "path": "templates/test.wiki",
+	    "page": "Template:Test"
+	}
     ]
 }

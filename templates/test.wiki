@@ -1,0 +1,6 @@
+<noinclude>
+This is the test template
+</noinclude>
+<includeonly>
+<h1>{{{1}}}</h1>
+</includeonly>

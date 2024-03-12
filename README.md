@@ -1,9 +1,9 @@
-# wiki/styles
+# wiki/content
 
-This repostitory contains the style definitions used at Repair Wiki.
+This repostitory contains the style definitions and templates used at Repair Wiki.
 
 ## Usage
-The compilation and updating of the styles to the wiki is handled by the [automation](https://github.com/repair-wiki/automation) tool.
+The compilation and updating of the styles and templates to the wiki is handled by the [automation](https://github.com/repair-wiki/automation) tool.
 
 ## Licence
 
