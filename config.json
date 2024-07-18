@@ -14,7 +14,7 @@
             "path": "js/Common.js",
             "page": "Mediawiki:Common.js"
         },
-        
+
         {
             "path": "pages/main.wiki",
             "page": "Main Page"
@@ -65,18 +65,35 @@
         {
             "path": "templates/ClickableButton.wiki",
             "page": "Template:Clickable button"
-        },        
+        },
         {
             "path": "templates/FullWidthButton.wiki",
             "page": "Template:FullWidthButton"
-        },        
+        },
         {
             "path": "templates/Icon.wiki",
             "page": "Template:Icon"
-        },        
+        },
         {
             "path": "templates/Stub.wiki",
             "page": "Template:Stub"
+        },
+        
+        {
+            "path": "semantics/forms/DevicePage.wiki",
+            "page": "Form:Device page"
+        },
+        {
+            "path": "semantics/forms/ManufacturerPage.wiki",
+            "page": "Form:Manufacturer page"
+        }, 
+        {
+            "path": "semantics/forms/ExplanatoryGuide.wiki",
+            "page": "Form:Explanatory Guide"
+        },
+        {
+            "path": "semantics/forms/RepairGuide.wiki",
+            "page": "Form:Repair Guide"
         }
     ]
 }
