@@ -10,9 +10,73 @@
         }
     ],
     "raw": [
-	{
-	    "path": "templates/test.wiki",
-	    "page": "Template:Test"
-	}
+        {
+            "path": "js/Common.js",
+            "page": "Mediawiki:Common.js"
+        },
+        
+        {
+            "path": "pages/main.wiki",
+            "page": "Main Page"
+        },
+
+        {
+            "path": "other/CitizenFooterDesc.wiki",
+            "page": "MediaWiki:Citizen-footer-desc"
+        },
+        {
+            "path": "other/CitizenFooterTagline.wiki",
+            "page": "MediaWiki:Citizen-footer-tagline"
+        },
+
+        {
+            "path": "templates/frontpage-containers/FrontpageContainerRow.wiki",
+            "page": "Template:FrontpageContainerRow"
+        },
+        {
+            "path": "templates/frontpage-containers/FrontpageContainerColumn.wiki",
+            "page": "Template:FrontpageContainerColumn"
+        },
+        {
+            "path": "templates/frontpage-containers/FrontpageContainerRowLink.wiki",
+            "page": "Template:FrontpageContainerRowLink"
+        },
+        {
+            "path": "templates/frontpage-containers/FrontpageContainerRowLinksGrid.wiki",
+            "page": "Template:FrontpageContainerRowLinksGrid"
+        },
+        {
+            "path": "templates/frontpage-containers/FrontpageContainerRowLinksGrid.wiki",
+            "page": "Template:FrontpageContainerRowLinksGrid"
+        },
+        {
+            "path": "templates/frontpage-containers/FrontpageContainerRowLinksGrid.wiki",
+            "page": "Template:FrontpageContainerRowLinksGrid"
+        },
+        {
+            "path": "templates/FrontpageHeader.wiki",
+            "page": "Template:FrontpageHeader"
+        },
+        {
+            "path": "templates/GoogleSearch.wiki",
+            "page": "Template:GoogleSearch"
+        },
+
+        {
+            "path": "templates/ClickableButton.wiki",
+            "page": "Template:Clickable button"
+        },        
+        {
+            "path": "templates/FullWidthButton.wiki",
+            "page": "Template:FullWidthButton"
+        },        
+        {
+            "path": "templates/Icon.wiki",
+            "page": "Template:Icon"
+        },        
+        {
+            "path": "templates/Stub.wiki",
+            "page": "Template:Stub"
+        }
     ]
 }

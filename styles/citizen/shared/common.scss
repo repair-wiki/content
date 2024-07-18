@@ -1,0 +1,59 @@
+/* Overrides for third party extensions */
+.editOptions {
+    color: var(--color-base);
+    background: var(--color-surface-0);
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+}
+
+span.select2.select2-container.select2-container--default *, .select2-container * {
+    color: var(--color-base);
+    background: var(--color-surface-0);
+    border-color: var(--border-color-base);
+    border-radius: var(--border-radius--medium);
+	
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background: var(--active-bg-color);
+    color: var(--active-text-color);
+}
+
+.pf-select2-dropdown .select2-results__options .select2-results__option--highlighted {
+    background: var(--active-bg-color);
+}
+
+.pf-select2-dropdown .select2-results__options .select2-results__option--highlighted * {
+    color: var(--active-text-color) !important;
+}
+
+span.select2-match-entire {
+    background-color: transparent;	
+}
+	
+form#pfForm * {    
+    border-color: var(--border-color-base);
+}
+
+.mw-ui-button-fw {
+	width: 100%;
+}
+
+// Form edit button icon
+li#ca-formedit a:before {
+    background-image: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2220px%22%20height%3D%2220px%22%20viewBox%3D%220%200%2020%2020%22%20version%3D%221.1%22%3E%3Cg%20id%3D%22surface1%22%3E%3Cpath%20style%3D%22%20stroke%3Anone%3Bfill-rule%3Anonzero%3Bfill%3A%2300000%3Bfill-opacity%3A1%3B%22%20d%3D%22M%201.332031%200.382812%20L%2019.214844%200.382812%20C%2019.445312%200.382812%2019.632812%200.570312%2019.632812%200.800781%20L%2019.632812%203.617188%20C%2019.632812%203.847656%2019.445312%204.035156%2019.214844%204.035156%20L%201.332031%204.035156%20C%201.101562%204.035156%200.917969%203.847656%200.917969%203.617188%20L%200.917969%200.800781%20C%200.917969%200.570312%201.101562%200.382812%201.332031%200.382812%20Z%20M%201.332031%200.382812%20%22%2F%3E%3Cpath%20style%3D%22%20stroke%3Anone%3Bfill-rule%3Anonzero%3Bfill%3A%2300000%3Bfill-opacity%3A1%3B%22%20d%3D%22M%201.269531%204.625%20L%2019.253906%204.59375%20C%2019.457031%204.59375%2019.621094%204.757812%2019.621094%204.957031%20L%2019.644531%2018.410156%20C%2019.644531%2018.609375%2019.480469%2018.777344%2019.277344%2018.777344%20L%201.296875%2018.808594%20C%201.09375%2018.808594%200.929688%2018.644531%200.929688%2018.441406%20L%200.90625%204.992188%20C%200.90625%204.789062%201.070312%204.625%201.269531%204.625%20Z%20M%201.269531%204.625%20%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    content: "";
+    display: block;
+    width: var(--size-icon);
+    height: var(--size-icon);
+    contain: strict;
+    font-size: 0;
+    opacity: var(--opacity-icon-base);
+    filter: var(--filter-invert);
+    background-repeat: no-repeat;
+    background-size: inherit;
+}
+
+a.image:hover:not(.lazy):not(.new) > img{
+    transform: none;
+}

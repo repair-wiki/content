@@ -1,1 +1,15 @@
-// Style overrides for the Citizen skin
+/* Style overrides for the Citizen skin */
+/* Not to be edited in the wiki, see https://github.com/repair-wiki/content for instructions on how to contribute  */
+
+// Common
+@import './citizen/shared/common.scss';
+
+// Infoboxes
+@import './citizen/shared/infobox.scss';
+
+// Templates
+@import './citizen/templates/frontpage-containers.scss';
+@import './citizen/templates/image-buttons.scss';
+
+// Page specific styles
+@import './citizen/pages/main.scss';
