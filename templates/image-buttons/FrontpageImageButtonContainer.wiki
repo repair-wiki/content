@@ -1,0 +1,3 @@
+<includeonly>
+<div class="frontpage-image-button-container">{{1}}</div>
+</includeonly>

@@ -1,0 +1,48 @@
+__NOTOC__
+<div style="border-radius: var(--border-radius--medium)" class="mw-message-box-warning">
+  <div style="border-top: none; text-align: center;" class="frontpage-container-content">
+   <p style="margin: 0;"> The contents of the old instance are archived at: https://old.repair.wiki/w/Repair_Wiki </p>
+   <p style="margin: 0;">'''Help contribute by moving content from the old wiki to the new wiki. [[Migrate|Click here to learn how]].'''</p>
+  </div>
+</div>
+
+{{Template:FrontpageHeader}}
+{{FrontpageContainerRow|
+  {{FrontpageContainerColumn|{{Icon|articlesSearch}} Search|{{GoogleSearch}}}}
+}}
+{{FrontpageContainerRow|
+  {{FrontpageContainerColumn|{{Icon|article}} Explore Guides|{{FrontpageImageButtons}}}} 
+}}
+
+{{FrontpageContainerRow|
+  {{FrontpageContainerColumn|{{Icon|edit}} Contribute knowledge|<!--
+-->
+* If you are new to wikis, [[Contribution Guide|start here!]]
+* Familiar with wikis? Start contributing!
+[[RepairWiki:Create|{{FullWidthButton|Create a new page!|color=blue}}]]
+
+[[:Category:Stubs|{{FullWidthButton|Fill out Stub pages!|color=blue}}]]
+
+[[Special:batchupload|{{FullWidthButton|Upload multiple images|color=blue}}]]
+
+* Number of articles: {{NUMBEROFARTICLES}}
+* Number of edits: {{NUMBEROFEDITS}}}}
+  {{FrontpageContainerColumn|{{Icon|link}} Repair Sources|<!--
+-->
+*[[3rd Party Repair Channels]]
+*[https://discord.gg/NWuBUxC All-Things Repair Discord]
+*[https://www.youtube.com/channel/UCl2mFZoRqjw_ELax4Yisf6w Louis Rossmann's Youtube Channel]
+*[https://www.rossmanngroup.com/ Rossmann Group's Website]
+
+}}
+  {{FrontpageContainerColumn|{{Icon|star}} Featured General Guides|<categorytree mode="pages">Repair Basics</categorytree>}}
+
+}}
+
+{{FrontpageContainerRowLinksGrid|[[Contribution Guide|<!--
+-->{{FrontpageContainerRowLink|How to Contribute}}]]<!--
+-->[[RepairWiki:Guidelines|{{FrontpageContainerRowLink|Guidelines}}]]<!--
+-->[[Talk:Repair_Wiki|{{FrontpageContainerRowLink|Suggestions}}]]<!--
+-->{{FrontpageContainerRowLink|[https://discord.gg/NWuBUxC Discord]}}<!--
+-->{{FrontpageContainerRowLink|[https://fighttorepair.org/donate/ Donate]}}
+}}
