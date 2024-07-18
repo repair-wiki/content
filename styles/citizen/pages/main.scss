@@ -36,3 +36,44 @@
         font-weight: 200;
     }
 }
+
+// Fix to make the google bar match with everything else
+button.gsc-search-button {
+    border-radius: var(--border-radius--small) !important;
+    background-color: var(--color-primary) !important;
+    border-color: var(--color-primary) !important;
+    > svg {
+        fill: #fff;
+    };
+}
+
+button.gsc-search-button:hover {
+    background-color: var(--color-primary--hover) !important;
+    border-color: var(--color-primary--hover) !important;
+}
+
+#gs_tti50 {
+    background-color: var(--color-surface-2);
+}
+
+#gs_id50 {
+    background-color: var(--color-surface-2);
+}
+
+#gsc-iw-id1 {
+    border: 1px solid var(--border-color-base);
+    border-radius: var(--border-radius--small);
+    background: var(--border-color-base) !important;
+}
+
+#gsc-i-id1 {
+    background-color: var(--color-surface-2) !important;
+    color: var(--color-base) !important
+}
+
+.gsc-completion-container {
+    background-color: var(--color-surface-2) !important;
+    border-color: var(--border-color-base) !important;
+    border-radius: var(--border-radius--small) !important;
+    color: var(--color-base) !important;
+}
