@@ -78,7 +78,11 @@
             "path": "templates/Stub.wiki",
             "page": "Template:Stub"
         },
-
+        {
+            "path": "templates/ListGuides.wiki",
+            "page": "Template:List guides"
+        },
+        
         {
             "path": "semantics/forms/DevicePage.wiki",
             "page": "Form:Device page"
@@ -95,7 +99,7 @@
             "path": "semantics/forms/RepairGuide.wiki",
             "page": "Form:Repair Guide"
         },
-
+        
         {
             "path": "semantics/properties/device/DeviceType.wiki",
             "page": "Property:Device type"
@@ -127,6 +131,11 @@
         {
             "path": "semantics/properties/guide/RepairGuideType.wiki",
             "page": "Property:Repair Guide type"
+        },
+        
+        {
+            "path": "templates/pages/DevicePage.wiki",
+            "page": "Template:Device page"
         }
     ]
 }
