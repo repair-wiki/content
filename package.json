@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "_",
   "repository": "git@github.com:repair-wiki/content.git",
-  "author": "Prerit Kimtani",
+  "author": "Repair Preservation Group",
   "license": "GNU",
   "private": false,
   "dependencies": {
