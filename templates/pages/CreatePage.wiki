@@ -1,5 +1,5 @@
 <includeonly>
-{| class="wikitable infobox" style="width:600px;"
+{| class="wikitable" style="width:600px;"
 |+Create a New Page
 !New Page Templates
 ! New Page Name
