@@ -82,7 +82,11 @@
             "path": "templates/ListGuides.wiki",
             "page": "Template:List guides"
         },
-        
+        {
+            "path": "templates/Delete.wiki",
+            "page": "Template:Delete"
+        },
+
         {
             "path": "semantics/forms/DevicePage.wiki",
             "page": "Form:Device page"
@@ -136,6 +140,15 @@
         {
             "path": "templates/pages/DevicePage.wiki",
             "page": "Template:Device page"
+        },
+        {
+            "path": "templates/pages/CreatePage.wiki",
+            "page": "Template:Create page"
+        },
+
+        {
+            "path": "templates/examples/DevicagePageExample.wiki",
+            "page": "Template:Device page/Example"
         }
     ]
 }
