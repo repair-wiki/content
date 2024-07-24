@@ -94,7 +94,7 @@
         {
             "path": "semantics/forms/ManufacturerPage.wiki",
             "page": "Form:Manufacturer page"
-        }, 
+        },
         {
             "path": "semantics/forms/ExplanatoryGuide.wiki",
             "page": "Form:Explanatory Guide"
@@ -145,10 +145,38 @@
             "path": "templates/pages/CreatePage.wiki",
             "page": "Template:Create page"
         },
+        {
+            "path": "templates/pages/create-page/CreatePageDevice.wiki",
+            "page": "Template:Create page/device"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageGuide.wiki",
+            "page": "Template:Create page/guide"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageManufacturer.wiki",
+            "page": "Template:Create page/manufacturer"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageMany.wiki",
+            "page": "Template:Create page/many"
+        },
 
         {
-            "path": "templates/examples/DevicagePageExample.wiki",
+            "path": "templates/examples/DevicePageExample.wiki",
             "page": "Template:Device page/Example"
+        },
+        {
+            "path": "templates/examples/ManufacturerPageExample.wiki",
+            "page": "Template:Manufacturer page/Example"
+        }, 
+        {
+            "path": "templates/examples/RepairGuideExample.wiki",
+            "page": "Template:Repair Guide/Example"
+        },
+        {
+            "path": "templates/examples/ExplanatoryGuideExample.wiki",
+            "page": "Template:Explanatory Guide/Example"
         }
     ]
 }
