@@ -153,3 +153,7 @@ button.gsc-search-button {
     fill: $color-syntax-blue !important;
   }
 }
+
+div.frontpage-title p:nth-child(3) {
+  font-size: $font-size-small;
+}

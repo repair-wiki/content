@@ -177,6 +177,11 @@
         {
             "path": "templates/examples/ExplanatoryGuideExample.wiki",
             "page": "Template:Explanatory Guide/Example"
+        },
+
+        {
+            "path": "other/Sidebar.wiki",
+            "page": "MediaWiki:Sidebar"
         }
     ]
 }
