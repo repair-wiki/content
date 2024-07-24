@@ -17,21 +17,21 @@ span.select2.select2-container.select2-container--default *,
 }
 
 .select2-container--default .select2-results__option[aria-selected='true'] {
-  background: var(--active-bg-color);
-  color: var(--active-text-color);
+  background: $active-bg-color;
+  color: $active-text-color;
 }
 
 .pf-select2-dropdown
   .select2-results__options
   .select2-results__option--highlighted {
-  background: var(--active-bg-color);
+  background: $active-bg-color;
 }
 
 .pf-select2-dropdown
   .select2-results__options
   .select2-results__option--highlighted
   * {
-  color: var(--active-text-color) !important;
+  color: $active-text-color !important;
 }
 
 span.select2-match-entire {
@@ -56,7 +56,7 @@ li#ca-formedit a:before {
   contain: strict;
   font-size: 0;
   opacity: $opacity-icon-base;
-  filter: var(--filter-invert);
+  filter: $filter-invert;
   background-repeat: no-repeat;
   background-size: inherit;
 }

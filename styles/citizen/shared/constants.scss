@@ -39,6 +39,8 @@ $color-base--emphasized: var(--color-base--emphasized);
 $color-primary: var(--color-primary);
 $background-color-base: var(--background-color-base);
 $color-emphasized: var(--color-emphasized);
+$active-bg-color: var(--active-bg-color);
+$active-text-color: var(--active-text-color);
 
 $color-syntax-red: var(--color-syntax-red);
 $color-syntax-orange: var(--color-syntax-orange);
@@ -71,3 +73,5 @@ $space-lg: var(--space-lg);
 $space-xl: var(--space-xl);
 $space-xxl: var(--space-xxl);
 $size-icon: var(--size-icon);
+
+$filter-invert: var(--filter-invert);
