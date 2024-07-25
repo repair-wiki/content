@@ -19,6 +19,7 @@
 [[Category:Device]]
 {{#if:{{{Manufacturer|}}}
 |[[Category:{{{Manufacturer|}}}]]
+{{#set:Manufacturer={{{Manufacturer|}}}}}
 {{#if:{{{Device type|}}}
 |[[Category:{{{Manufacturer|}}} {{{Device type|}}}s]]
 }}
