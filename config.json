@@ -78,6 +78,14 @@
             "path": "templates/Stub.wiki",
             "page": "Template:Stub"
         },
+        {
+            "path": "templates/ListGuides.wiki",
+            "page": "Template:List guides"
+        },
+        {
+            "path": "templates/Delete.wiki",
+            "page": "Template:Delete"
+        },
 
         {
             "path": "semantics/forms/DevicePage.wiki",
@@ -86,7 +94,7 @@
         {
             "path": "semantics/forms/ManufacturerPage.wiki",
             "page": "Form:Manufacturer page"
-        }, 
+        },
         {
             "path": "semantics/forms/ExplanatoryGuide.wiki",
             "page": "Form:Explanatory Guide"
@@ -95,7 +103,7 @@
             "path": "semantics/forms/RepairGuide.wiki",
             "page": "Form:Repair Guide"
         },
-
+        
         {
             "path": "semantics/properties/device/DeviceType.wiki",
             "page": "Property:Device type"
@@ -127,6 +135,53 @@
         {
             "path": "semantics/properties/guide/RepairGuideType.wiki",
             "page": "Property:Repair Guide type"
+        },
+        
+        {
+            "path": "templates/pages/DevicePage.wiki",
+            "page": "Template:Device page"
+        },
+        {
+            "path": "templates/pages/CreatePage.wiki",
+            "page": "Template:Create page"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageDevice.wiki",
+            "page": "Template:Create page/device"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageGuide.wiki",
+            "page": "Template:Create page/guide"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageManufacturer.wiki",
+            "page": "Template:Create page/manufacturer"
+        },
+        {
+            "path": "templates/pages/create-page/CreatePageMany.wiki",
+            "page": "Template:Create page/many"
+        },
+
+        {
+            "path": "templates/examples/DevicePageExample.wiki",
+            "page": "Template:Device page/Example"
+        },
+        {
+            "path": "templates/examples/ManufacturerPageExample.wiki",
+            "page": "Template:Manufacturer page/Example"
+        }, 
+        {
+            "path": "templates/examples/RepairGuideExample.wiki",
+            "page": "Template:Repair Guide/Example"
+        },
+        {
+            "path": "templates/examples/ExplanatoryGuideExample.wiki",
+            "page": "Template:Explanatory Guide/Example"
+        },
+
+        {
+            "path": "other/Sidebar.wiki",
+            "page": "MediaWiki:Sidebar"
         }
     ]
 }

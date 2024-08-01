@@ -1,38 +1,159 @@
 /* Main page */
 .page-Main_Page header.mw-body-header {
-    display: none;
+  display: none;
 }
 
 .frontpage-title {
-    padding: 1em 2.5em;
-    color: var(--color-base--subtle);
-    font-weight: 300;
-    font-size: 1.75em;
-    
-    @media screen and (max-width: 1024px){
-        padding: 0.5em;
-        font-size: 2em;
-    }
-    
-    .prefix, .suffix {
-        font-weight: 100;
-        font-size: 60%;
-    }
-    .prefix {
-        margin-bottom: 0;
-    }
-    h1 {
-        margin-bottom: 0;
-        margin-top: 0;
-        font-weight: 800;
-        color: var(--color-base--emphasized);
-        font-size: 120% !important;
-    }
-    .suffix {
-        margin-top: 0;
-    }
-    p {
-        font-size: 65%;
-        font-weight: 200;
-    }
+  padding: 1em 2.5em;
+  color: color-base--subtle;
+  font-weight: 300;
+  font-size: 1.75em;
+
+  @media screen and (max-width: 1024px) {
+    padding: 0.5em;
+    font-size: 2em;
+  }
+
+  .prefix,
+  .suffix {
+    font-weight: 100;
+    font-size: 60%;
+  }
+  .prefix {
+    margin-bottom: 0;
+  }
+  h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 800;
+    color: $color-base--emphasized;
+    font-size: 120% !important;
+  }
+  .suffix {
+    margin-top: 0;
+  }
+  p {
+    font-size: 65%;
+    font-weight: 200;
+  }
+}
+
+// Fix to make the google bar match with everything else
+button.gsc-search-button {
+  border-radius: $border-radius--small !important;
+  background-color: $color-primary !important;
+  border-color: $color-primary !important;
+
+  svg {
+    fill: #fff;
+  }
+
+  &:hover {
+    background-color: $color-primary--hover !important;
+    border-color: $color-primary--hover !important;
+  }
+}
+
+#gs_tti50 {
+  background-color: $color-surface-2;
+}
+
+#gs_id50 {
+  background-color: $color-surface-2;
+}
+
+#gsc-iw-id1 {
+  border: 1px solid $border-color-base;
+  border-radius: $border-radius--small;
+  background: $border-color-base !important;
+}
+
+#gsc-i-id1 {
+  background-color: $color-surface-2 !important;
+  color: $color-base !important;
+}
+
+.gsc-completion-container {
+  background-color: $color-surface-2 !important;
+  border-color: $border-color-base !important;
+  border-radius: $border-radius--small !important;
+  color: $color-base !important;
+}
+
+.gsc-completion-selected {
+  background-color: $color-surface-1 !important;
+}
+
+.gsc-modal-background-image {
+  background-color: $background-color-base !important;
+}
+
+.gsc-results-wrapper-overlay {
+  background-color: $color-surface-2 !important;
+  border-radius: $border-radius--medium;
+}
+
+.gs-snippet {
+  color: $color-base !important;
+}
+
+.gsc-result {
+  border: none !important;
+}
+
+.gsc-above-wrapper-area {
+  border-bottom: none !important;
+}
+
+.gs-image {
+  border: none !important;
+}
+
+.gsc-result-info {
+  color: $color-base !important;
+}
+
+.gsc-orderby-label {
+  color: $color-base !important;
+}
+
+.gsc-selected-option-container {
+  background-color: $color-surface-1 !important;
+}
+
+.gsc-option-menu {
+  background-color: $color-surface-1 !important;
+}
+
+.gsc-option {
+  color: $color-base !important;
+}
+
+.gsc-option-menu-item-highlighted {
+  background-color: $color-surface-2 !important;
+}
+
+.gsc-selected-option {
+  color: $color-base !important;
+}
+
+.gs-title {
+  color: $color-syntax-blue !important;
+  font-weight: bolder;
+}
+
+.gs-visibleUrl-breadcrumb * {
+  color: $color-syntax-green;
+}
+
+.gcsc-find-more-on-google {
+  color: $color-syntax-blue !important;
+
+  svg {
+    fill: $color-syntax-blue !important;
+  }
+}
+
+div.frontpage-title p:nth-child(3) {
+  font-size: $font-size-small;
 }
