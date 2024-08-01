@@ -1,6 +1,3 @@
-
-
-
 * navigation
 ** mainpage|mainpage-description
 ** recentchanges-url|recentchanges
