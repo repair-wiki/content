@@ -38,6 +38,16 @@
   }
 }
 
+.frontpage-image-button.has-image a {
+  align-items: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .frontpage-container-row:has(.frontpage-image-button) {
+    justify-content: center;
+  }
+}
+
 // Fix to make the google bar match with everything else
 button.gsc-search-button {
   border-radius: $border-radius--small !important;
